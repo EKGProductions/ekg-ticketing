@@ -25,12 +25,12 @@ export default function HeroHighlight({ concert }: { concert: Concert }) {
         </div>
       </div>
 
-      {/* <div className="absolute right-0 top-0 w-full md:w-1/2 h-full z-10">
+       <div className="absolute right-0 top-0 w-full md:w-1/2 h-full z-10">
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/20 to-transparent z-10" />
         <img src={concert.bannerImage} alt={concert.title} className="w-full h-full object-cover" />
-      </div> */}
+      </div>
       
-      <video
+      {/*<video
         autoPlay
         loop
         muted
@@ -38,7 +38,7 @@ export default function HeroHighlight({ concert }: { concert: Concert }) {
         className="w-full h-full object-cover absolute inset-0 bg-gradient-to-r from-black via-black/20 to-transparent z-10">
         <source src="/BANNERS/[1]/IN BETWEEN LA.mp4" type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video>*/}
     </section>
   );
 }
