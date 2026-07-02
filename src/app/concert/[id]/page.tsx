@@ -24,7 +24,7 @@ export default async function ConcertPage({
         {/* EVENT HEADER: Poster at Info */}
         <div className="grid md:grid-cols-2 gap-12 mb-16">
           <div className="rounded-2xl overflow-hidden border border-gray-800 shadow-2xl">
-            <img src={concert.image} alt={concert.title} className="w-full h-auto object-cover" />
+            <img src={concert.posterImage} alt={concert.title} className="w-full h-auto object-cover" />
           </div>
 
           <div className="flex flex-col justify-center">

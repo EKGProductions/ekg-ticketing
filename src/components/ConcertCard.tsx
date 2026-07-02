@@ -9,7 +9,7 @@ export default function ConcertCard({ concert }: { concert: Concert }) {
   return (
     <div className="bg-gray-900 border border-gray-800 rounded-2xl overflow-hidden hover:border-[#F7FF00] transition-colors group">
       <div className="h-48 bg-gray-800 flex items-center justify-center">
-        <img src={concert.image} alt={concert.title} className="w-full h-full object-cover" />
+        <img src={concert.cardImage} alt={concert.title} className="w-full h-full object-cover" />
       </div>
       
       <div className="p-5">
