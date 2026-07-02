@@ -49,16 +49,16 @@ export default async function ConcertPage({
             </h3>
             
             {/* Dito tayo gumamit ng GRID para maayos ang pag-layout ng hanggang 6 logos per row */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 items-center justify-items-center">
-                {concert.sponsors.map((sponsor, index) => (
-                <div key={index} className="flex justify-center w-full">
-                    <img 
+            <div className="flex flex-wrap justify-center items-center gap-5">
+            {concert.sponsors.map((sponsor, index) => (
+                <div key={index} className="flex justify-center">
+                <img 
                     src={sponsor.logo} 
                     alt={sponsor.name} 
-                    className="h-20 md:h-30 w-auto object-contain  opacity-60 hover:opacity-100 transition-all duration-1000"
-                    />
+                    className="h-20 w-20 object-contain opacity-60 hover:opacity-200 transition-all duration-1000"
+                />
                 </div>
-                ))}
+            ))}
             </div>
             </div>
 
