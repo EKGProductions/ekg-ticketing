@@ -17,8 +17,8 @@ export default function Footer() {
         {/* Column 2: Contact */}
         <div>
           <h3 className="font-bold text-white mb-4">Contact for Inquiries & Sponsorships</h3>
-          <p className="text-gray-400 text-sm mb-2">📞 +63 912 345 6789</p>
-          <p className="text-gray-400 text-sm">📧 inquiries@ekgproductions.com</p>
+          <p className="text-gray-400 text-sm mb-2">📞 +63 999 226 8424 | +63 939 969 9786 | +63 998 841 8424</p>
+          <p className="text-gray-400 text-sm">📧 ekg.marketing88@gmail.com</p>
         </div>
 
         {/* Column 3: Socials */}

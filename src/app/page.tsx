@@ -17,17 +17,17 @@ export default function Home() {
   );
 
   // Dito, hahanapin niya talaga ang item na may ID na '1', kahit saan pa ito nakapwesto sa array
-const featuredConcert = concerts.find(c => c.id === '12');
+const featuredConcert = concerts.find(c => c.id === '1');
 
   return (
     <main className="min-h-screen bg-black text-white">
       {featuredConcert && <HeroHighlight concert={featuredConcert} />}
       
       <section className="max-w-7xl mx-auto p-8">
-        <h2 className="text-3xl font-bold mb-8">Upcoming Events</h2>
+        <h2 className="text-3xl font-bold mb-8">Upcoming Concerts</h2>
         
         {/* Ilagay natin ang Search Bar dito */}
-        <SearchBar onSearch={setSearchTerm} />
+        <SearchBar onSearch={setSearchTerm} />  
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredConcerts.length > 0 ? (
