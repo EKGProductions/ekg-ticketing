@@ -21,7 +21,7 @@ const featuredConcert = concerts.find(c => c.id === '12');
 
   return (
     <main className="min-h-screen bg-black text-white">
-      <HeroHighlight concert={featuredConcert} />
+      {featuredConcert && <HeroHighlight concert={featuredConcert} />}
       
       <section className="max-w-7xl mx-auto p-8">
         <h2 className="text-3xl font-bold mb-8">Upcoming Events</h2>
