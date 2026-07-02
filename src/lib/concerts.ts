@@ -1,13 +1,19 @@
-// src/lib/concerts.ts
+// IDAGDAG MO ITO SA ITAAS
+export type Sponsor = {
+  name: string;
+  logo: string;
+};
+
+// I-keep mo ang Concert type mo (ngayon, alam na ni TS kung ano ang Sponsor)
 export type Concert = {
   id: string;
   title: string;
   date: string;
   venue: string;
   status: string;
-  image: string; // Placeholder lang muna
-  description: string; // Dagdag natin ito
-  sponsors: Sponsor[];
+  image: string;
+  description: string;
+  sponsors: Sponsor[]; 
 };
 
 export const concerts: Concert[] = [
