@@ -1,6 +1,7 @@
 // src/app/concert/[id]/page.tsx
 import { concerts } from "@/lib/concerts"; // Siguraduhing tama ang path ng file mo
 import { notFound } from "next/navigation";
+import Link from 'next/link';
 
 export default async function ConcertPage({ 
   params 
@@ -36,9 +37,11 @@ export default async function ConcertPage({
               <p className="text-white">📍 <strong>Venue:</strong> {concert.venue}</p>
             </div>
 
-            <button className="bg-white text-black text-lg font-bold py-4 rounded-xl hover:bg-yellow-300 transition-all">
-              Buy Tickets Now
-            </button>
+            <Link href={`/concert/${concert.id}/book`}>
+              <button className="bg-white text-black text-lg font-bold py-4 rounded-xl hover:bg-yellow-300 transition-all w-full">
+                Buy Tickets Now
+              </button>
+            </Link>
           </div>
         </div>
 
@@ -55,7 +58,7 @@ export default async function ConcertPage({
                 <img 
                     src={sponsor.logo} 
                     alt={sponsor.name} 
-                    className="h-20 w-20 object-contain opacity-60 hover:opacity-200 transition-all duration-1000"
+                    className="h-20 w-20 object-contain opacity-60 hover:opacity-200  transition-all duration-1000"
                 />
                 </div>
             ))}

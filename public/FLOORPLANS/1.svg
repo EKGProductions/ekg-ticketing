@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 916.55 722.04">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+      }
+    </style>
+  </defs>
+  <g id="layer-stage">
+    <rect class="cls-1" x="161.17" width="594.49" height="64.21"/>
+  </g>
+  <g id="layer-lefthiraya">
+    <rect class="cls-1" x="161.17" y="100.74" width="291.15" height="67.53"/>
+  </g>
+  <g id="layer-righthiraya">
+    <rect class="cls-1" x="465.05" y="100.74" width="290.6" height="67.53"/>
+  </g>
+  <g id="layer-simula">
+    <rect class="cls-1" x="161.17" y="178.05" width="291.15" height="67.53"/>
+    <rect class="cls-1" x="464.78" y="178.05" width="291.15" height="67.53"/>
+    <rect class="cls-1" x="768.38" y="78.42" width="148.16" height="167.16"/>
+    <rect class="cls-1" x=".55" y="78.42" width="148.16" height="167.16"/>
+  </g>
+  <g id="layer-gold">
+    <rect class="cls-1" x=".55" y="255.36" width="148.16" height="90.29"/>
+    <rect class="cls-1" x="768.38" y="255.36" width="148.16" height="90.29"/>
+    <g>
+      <rect class="cls-1" x="559.34" y="255.36" width="196.32" height="90.29"/>
+      <rect class="cls-1" x="464.78" y="255.36" width="196.32" height="35.3"/>
+    </g>
+    <g>
+      <rect class="cls-1" x="161.31" y="255.36" width="196.32" height="90.29" transform="translate(518.93 601.01) rotate(-180)"/>
+      <rect class="cls-1" x="255.87" y="255.36" width="196.32" height="35.3" transform="translate(708.05 546.02) rotate(-180)"/>
+    </g>
+  </g>
+  <g id="layer-silver">
+    <rect class="cls-1" x="161.31" y="355.42" width="291.02" height="90.22"/>
+    <rect class="cls-1" x="464.78" y="355.42" width="291.15" height="90.22"/>
+    <rect class="cls-1" x="768.38" y="355.42" width="148.16" height="90.22"/>
+    <rect class="cls-1" x=".55" y="355.42" width="148.16" height="90.22"/>
+  </g>
+  <g id="layer-bronze">
+    <rect class="cls-1" x="160.89" y="455.43" width="291.15" height="117.16"/>
+    <rect class="cls-1" x="464.78" y="455.43" width="291.15" height="117.16"/>
+    <rect class="cls-1" x="768.38" y="455.43" width="148.16" height="117.16"/>
+    <rect class="cls-1" y="455.43" width="148.16" height="117.16"/>
+  </g>
+  <g id="layer-genad">
+    <rect class="cls-1" x="160.89" y="582.37" width="291.15" height="139.67"/>
+    <rect class="cls-1" x="464.91" y="582.37" width="291.15" height="139.67"/>
+    <rect class="cls-1" x="768.94" y="582.37" width="147.61" height="139.67"/>
+    <rect class="cls-1" y="582.37" width="148.44" height="139.67"/>
+  </g>
+</svg>

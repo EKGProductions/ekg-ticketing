@@ -25,7 +25,7 @@ export default function HeroHighlight({ concert }: { concert: Concert }) {
         </div>
       </div>
 
-       <div className="absolute right-0 top-0 w-full md:w-1/2 h-full z-10">
+      <div className="absolute right-0 top-0 w-full md:w-1/2 h-full z-10">
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/20 to-transparent z-10" />
         <img src={concert.bannerImage} alt={concert.title} className="w-full h-full object-cover" />
       </div>
